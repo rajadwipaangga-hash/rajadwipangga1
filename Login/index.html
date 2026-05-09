@@ -9,16 +9,22 @@
 </head>
 <body>
   <div class="wrapper">
-    <form action="#">
+    <!-- Added class="login" and id="loginForm" from the image -->
+    <form action="#" class="login" id="loginForm">
       <h2>Login</h2>
-        <div class="input-field">
-        <input type="text" required>
+      
+      <!-- Added id="username" and placeholder from the image -->
+      <div class="input-field field">
+        <input type="text" id="username" placeholder="username" required>
         <label>Enter your email</label>
       </div>
-      <div class="input-field">
-        <input type="password" required>
+      
+      <!-- Added id="password" and placeholder from the image -->
+      <div class="input-field field">
+        <input type="password" id="password" placeholder="Password" required>
         <label>Enter your password</label>
       </div>
+      
       <div class="forget">
         <label for="remember">
           <input type="checkbox" id="remember">
@@ -26,20 +32,21 @@
         </label>
         <a href="#">Forgot password?</a>
       </div>
+      
       <button type="submit">Log In</button>
+      
       <div class="register">
         <p>Don't have an account? <a href="#">Register</a></p>
       </div>
     </form>
   </div>
-    <div id="alertBox" class="alert" style="display:none;"></div>
-</form>
+  
+  <div id="alertBox" class="alert" style="display:none;"></div>
 
-<div id="authArea">
-    <button onclick="goLogin()" class="nav-cta">Login</button>
-</div>
+  <div id="authArea">
+      <button onclick="goLogin()" class="nav-cta">Login</button>
+  </div>
 
-
-<script src="js/login.js"></script>
+  <script src="js/login.js"></script>
 </body>
 </html>

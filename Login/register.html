@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - www.codingnepalweb.com -->
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Glassmorphism register Form | CodingNepal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <!-- Added class="register" and id="registerForm" from the image -->
+    <form action="#" class="register" id="registerForm">
+      <h2>Log In</h2>
+      
+      <!-- Added id="username" and placeholder from the image -->
+      <div class="input-field field">
+        <input type="text" placeholder="username" required id="username">
+        <label>Enter your username</label>
+      </div>
+
+      <!-- Added id="email" and placeholder from the image -->
+      <div class="input-field field">
+        <input type="text" placeholder="email" required id="email">
+        <label>Enter your email</label>
+      </div>
+      
+      <!-- Added id="password" and placeholder from the image -->
+      <div class="input-field field">
+        <input type="password" placeholder="Password" required id="password">
+        <label>Enter your password</label>
+      </div>
+      
+      <div class="forget">
+        <label for="remember">
+          <input type="checkbox" id="remember">
+          <p>Remember me</p>
+        </label>
+        <a href="#">Forgot password?</a>
+      </div>
+      
+      <button type="submit">Login</button>
+      
+      <div class="register">
+        <p>Don't have an account? <a href="#">Register</a></p>
+      </div>
+    </form>
+  </div>
+  
+  <div id="alertBox" class="alert" style="display:none;"></div>
+<form/>
+
+<p id="message"></p>
+<script src="js/register.js" defer></script>
+</body>
+</html>

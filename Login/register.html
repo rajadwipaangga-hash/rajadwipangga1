@@ -1,56 +1,47 @@
 <!DOCTYPE html>
 <!-- Coding By CodingNepal - www.codingnepalweb.com -->
-<html>
+<html lang="id">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Glassmorphism register Form | CodingNepal</title>
+  <title>Glassmorphism Register Form | CodingNepal</title>
   <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome untuk ikon Google (jika diperlukan) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
   <div class="wrapper">
-    <!-- Added class="register" and id="registerForm" from the image -->
-    <form action="#" class="register" id="registerForm">
-      <h2>Log In</h2>
+    <form id="registerForm">
+      <h3>Register</h3>
       
-      <!-- Added id="username" and placeholder from the image -->
-      <div class="input-field field">
-        <input type="text" placeholder="username" required id="username">
-        <label>Enter your username</label>
-      </div>
-
-      <!-- Added id="email" and placeholder from the image -->
-      <div class="input-field field">
-        <input type="text" placeholder="email" required id="email">
-        <label>Enter your email</label>
-      </div>
+      <label for="username">Nama Pengguna</label>
+      <input type="text" id="username" required placeholder="Username">
       
-      <!-- Added id="password" and placeholder from the image -->
-      <div class="input-field field">
-        <input type="password" placeholder="Password" required id="password">
-        <label>Enter your password</label>
-      </div>
+      <label for="email">Email</label>
+      <input type="email" id="email" required placeholder="Email">
       
-      <div class="forget">
-        <label for="remember">
-          <input type="checkbox" id="remember">
-          <p>Remember me</p>
-        </label>
-        <a href="#">Forgot password?</a>
-      </div>
+      <label for="password">Password</label>
+      <input type="password" id="password" required placeholder="Password">
       
-      <button type="submit">Login</button>
+      <!-- Tempat menampilkan pesan error/sukses dari JavaScript -->
+      <p id="message"></p>
       
-      <div class="register">
-        <p>Don't have an account? <a href="#">Register</a></p>
+      <button type="submit">Daftar</button>
+      
+      <div class="social">
+        <div class="go">
+          <a href="index.html">Login</a>
+        </div>
+        <div class="kanan">
+          <i class="fab fa-google"></i> with Google
+        </div>
       </div>
     </form>
   </div>
-  
-  <div id="alertBox" class="alert" style="display:none;"></div>
-<form/>
 
-<p id="message"></p>
-<script src="js/register.js" defer></script>
+  <!-- Box Alert tambahan (jika skrip JS Anda membutuhkannya) -->
+  <div id="alertBox" class="alert" style="display:none;"></div>
+
+  <script src="js/register.js" defer></script>
 </body>
 </html>

@@ -10,18 +10,26 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-  <div class="wrapper">
-    <form id="registerForm">
-      <h3>Register</h3>
+      <div class="wrapper">
+      <form action="#" class="login" id="loginForm">
+      <h2>Log In</h2>
       
-      <label for="username">Nama Pengguna</label>
-      <input type="text" required id="username" placeholder="Username">
-      
-      <label for="email">Email</label>
-      <input type="email" required id="email" placeholder="Email">
-      
-      <label for="password">Password</label>
-      <input type="password" required id="password" placeholder="Password">
+      <!-- Added id="username" and placeholder from the image -->
+      <div class="input-field field">
+        <input type="text" placeholder="username" required id="username">
+        <label>Enter your username</label>
+      </div>
+          <!-- Added id="username" and placeholder from the image -->
+      <div class="input-field field">
+        <input type="text" placeholder="email" required id="email">
+        <label>Enter your email</label>
+      </div>
+        
+      <!-- Added id="password" and placeholder from the image -->
+      <div class="input-field field">
+        <input type="password" placeholder="Password" required id="password">
+        <label>Enter your password</label>
+      </div>
       
       <!-- Tempat menampilkan pesan error/sukses dari JavaScript -->
       <p id="message"></p>

@@ -13,7 +13,7 @@
           slides: [
               { src: 'images/Gambar-Doran-35.webp' },
               { src: 'images/hipwee-www_20260413_155037_0000-1138x640.webp' },
-              { src: 'images/images (1).jpeg' }
+              { src: 'images/series-adaptasi-wattpad.webp' }
           ],
           timer: false,
           animation: 'kenburns',

@@ -12,7 +12,7 @@
       $('.hero-slides').vegas({
           slides: [
               { src: 'images/Gambar-Doran-35.webp' },
-              { src: 'images/hipwee-www_20260413_155037_0000-1138x640.webp' },
+              { src: 'images/hfhjj.jpg' },
               { src: 'images/series-adaptasi-wattpad.webp' }
           ],
           timer: false,

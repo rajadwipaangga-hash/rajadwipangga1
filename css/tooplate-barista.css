@@ -1192,20 +1192,3 @@ strong {
   .timeline-container-right::before {
     top: 13px;
   }
-
-.nav-cta {
-    background-color: transparent !important;
-    color: #ffffff !important;
-    border: 1px solid #ffffff !important;
-    padding: 10px 24px !important;
-    border-radius: 100px !important;
-    font-weight: 500 !important;
-    cursor: pointer !important;
-    transition: all 0.3s ease !important;
-    margin-left: 15px !important;
-}
-
-.nav-cta:hover {
-    background-color: #ffffff !important;
-    color: #000000 !important;
-}

@@ -1193,27 +1193,25 @@ strong {
     top: 13px;
   }
 }
-/* Ganti .tombol-login dengan class/id yang membungkus tombol login-mu */
-.tombol-login {
+.nav-cta {
     background-color: transparent;
     color: #ffffff;
     border: 1px solid #ffffff;
     padding: 10px 24px;
-    border-radius: 100px; /* Membuat sudutnya membulat sempurna */
+    border-radius: 100px; /* Membuat sudut membulat sempurna */
     font-weight: 500;
     cursor: pointer;
     transition: all 0.3s ease;
+    margin-left: 15px; /* Memberi jarak dengan teks Belum login */
 }
 
-/* Efek saat tombol disentuh mouse */
-.tombol-login:hover {
+.nav-cta:hover {
     background-color: #ffffff;
-    color: #000000; /* Mengubah teks jadi hitam saat di-hover */
+    color: #000000; /* Teks berubah hitam saat disentuh mouse */
 }
-.status-login {
+#userInfo {
     color: rgba(255, 255, 255, 0.6); /* Warna putih agak transparan */
     font-size: 14px;
-    margin-right: 10px; /* Memberi jarak dengan tombol login */
+    margin-bottom: 0; /* Biar sejajar rapi */
+    display: inline-block;
 }
-
-

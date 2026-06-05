@@ -1192,26 +1192,20 @@ strong {
   .timeline-container-right::before {
     top: 13px;
   }
-}
+
 .nav-cta {
-    background-color: transparent;
-    color: #ffffff;
-    border: 1px solid #ffffff;
-    padding: 10px 24px;
-    border-radius: 100px; /* Membuat sudut membulat sempurna */
-    font-weight: 500;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    margin-left: 15px; /* Memberi jarak dengan teks Belum login */
+    background-color: transparent !important;
+    color: #ffffff !important;
+    border: 1px solid #ffffff !important;
+    padding: 10px 24px !important;
+    border-radius: 100px !important;
+    font-weight: 500 !important;
+    cursor: pointer !important;
+    transition: all 0.3s ease !important;
+    margin-left: 15px !important;
 }
 
 .nav-cta:hover {
-    background-color: #ffffff;
-    color: #000000; /* Teks berubah hitam saat disentuh mouse */
-}
-#userInfo {
-    color: rgba(255, 255, 255, 0.6); /* Warna putih agak transparan */
-    font-size: 14px;
-    margin-bottom: 0; /* Biar sejajar rapi */
-    display: inline-block;
+    background-color: #ffffff !important;
+    color: #000000 !important;
 }
